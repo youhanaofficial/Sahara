@@ -1,0 +1,61 @@
+# ============================
+# PHP / Environment
+# ============================
+.env
+.env.*
+config.php
+config/*.php
+db.php
+
+# ============================
+# Dependencies
+# ============================
+/vendor/
+
+# ============================
+# Logs & Cache
+# ============================
+*.log
+logs/
+cache/
+tmp/
+
+# ============================
+# OS / System files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# IDE / Editor files
+# ============================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ============================
+# Build / Test
+# ============================
+coverage/
+phpunit.xml
+phpunit.result.cache
+
+# ============================
+# Uploads (if user generated)
+# ============================
+uploads/*
+!uploads/.gitkeep
+
+# ============================
+# Database
+# ============================
+*.sql
+*.sqlite
+
+# ============================
+# Misc
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
